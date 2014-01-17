@@ -19,6 +19,8 @@
 # - It will not sort the movies already in the Star folder
 # - Need help? just type "help"(case in-sensitive) when it asks for the movie folder.
 
+# Last but not the least, I would like to thank IMDB for their service.
+
 #========================================
 # Script start                          #
 #========================================
