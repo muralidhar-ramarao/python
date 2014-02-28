@@ -1,0 +1,21 @@
+def unique_char_in_string(string,case='n'):
+    '''(str)->(str)
+
+    This function would return the unique characters of a string. If the case
+    is true, then it would return unique characters in each case of the
+    character,else, it would return unique characters of the string irrespective
+    of the string.
+
+    Default values for case is No(n).
+
+    '''
+    unique=''
+    if case.lower()=='n':
+        for char in string:
+            if not char.lower() in unique.lower():
+                    unique=unique+char
+    else:
+        for char in string:
+            if not char in unique:
+                unique=unique+char
+    print(unique)
